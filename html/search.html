@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+<h1>Search Result</h1>
+<ul>
+    {% for user in users %}
+    <li class="user-item">
+        <div class="user-desc">
+            <h3>用户名：{{user.name}}</h3>
+            <h4>性别：{{user['gender']}} 位置：{{user['position']}} 加入时间：{{user['add_day']}}</h4>
+        </div>
+    </li>
+    {% end %}
+</ul>
+</body>
+</html>
