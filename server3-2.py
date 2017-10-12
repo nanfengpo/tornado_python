@@ -1,3 +1,10 @@
+
+# coding:utf8
+
+'''
+    获取查询字符串与请求体的输入数据的6种方法
+'''
+
 from tornado.web import Application,RequestHandler,url
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop

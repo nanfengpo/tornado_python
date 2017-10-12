@@ -1,3 +1,8 @@
+# coding:utf8
+
+'''
+    路由映射
+'''
 from tornado.web import Application,RequestHandler,url
 from tornado.ioloop import IOLoop
 from tornado.httpserver import HTTPServer
